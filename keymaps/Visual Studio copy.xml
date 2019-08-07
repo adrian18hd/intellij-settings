@@ -28,6 +28,15 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift alt f7" />
+    <keyboard-shortcut first-keystroke="shift f12" />
+  </action>
+  <action id="FindUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift ctrl f7" />
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+  </action>
+  <action id="HideAllWindows" />
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
@@ -46,6 +55,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt f" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="d" />
   </action>
+  <action id="RestoreDefaultLayout" />
   <action id="RunDashboard.CopyConfiguration">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
