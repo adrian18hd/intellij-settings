@@ -68,6 +68,7 @@
   </action>
   <action id="SendEOF" />
   <action id="ShowContent" />
+  <action id="UpdateRunningApplication" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
@@ -77,5 +78,11 @@
   </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MoveWatchUp" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
