@@ -1,4 +1,9 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -28,6 +33,9 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
   <action id="FileStructurePopup" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift alt f7" />
@@ -35,14 +43,13 @@
   </action>
   <action id="FindUsagesInFile">
     <keyboard-shortcut first-keystroke="shift ctrl f7" />
-    <keyboard-shortcut first-keystroke="shift ctrl f12" />
   </action>
+  <action id="GotoChangedFile" />
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="ctrl f12" />
   </action>
-  <action id="HideAllWindows" />
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
