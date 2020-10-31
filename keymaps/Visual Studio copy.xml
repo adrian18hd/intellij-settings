@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="Adtui.ZoomToFitAction">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -23,6 +26,15 @@
   </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt divide" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
@@ -49,6 +61,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt b" />
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
