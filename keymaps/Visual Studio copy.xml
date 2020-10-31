@@ -56,6 +56,10 @@
   <action id="FindUsagesInFile">
     <keyboard-shortcut first-keystroke="shift ctrl f7" />
   </action>
+  <action id="Flutter.Toolbar.RestartAction">
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl f5" />
+  </action>
   <action id="GotoChangedFile" />
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
@@ -83,6 +87,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt f" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="d" />
   </action>
+  <action id="Rerun" />
   <action id="RestoreDefaultLayout" />
   <action id="RunDashboard.CopyConfiguration">
     <keyboard-shortcut first-keystroke="shift alt down" />
